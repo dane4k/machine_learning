@@ -7,7 +7,7 @@ import imutils
 import time
 import cv2
 import os
-
+    
 # path=os.path.join(os.path.abspath(os.curdir) , 'my_model.onnx')
 caffemodel=os.path.join(os.path.abspath(os.curdir) , 'MobileNetSSD_deploy.caffemodel')
 txt=os.path.join(os.path.abspath(os.curdir) , 'MobileNetSSD_deploy.prototxt.txt')
